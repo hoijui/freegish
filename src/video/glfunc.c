@@ -162,6 +162,8 @@ void screenshot(void)
     filename[7]=48+count%10;
     fclose(fp);
     }
+  // close potentially open file pointer when reaching limit
+  fclose(fp);
 
   if((fp=fopen(userpath(path,NULL,filename),"wb"))!=NULL)
     {
