@@ -31,7 +31,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 int numofsprites;
 _sprite sprite[256];
 
-void createsprite(int points,float position[3])
+void createsprite(unsigned int points,float position[3])
   {
   sprite[numofsprites].type=1;
   sprite[numofsprites].timetolive=75;
