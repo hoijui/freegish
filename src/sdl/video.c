@@ -55,7 +55,7 @@ void listvideomodes(void)
     return;
     }
 
-  for (count=0;sdlmode[count]!=NULL && count<64;count++)
+  for (count=0;count<64 && sdlmode[count]!=NULL;count++)
     {
     //if (SDL_VideoModeOK(sdlmode[count]->w,sdlmode[count]->h,32,SDL_OPENGL|SDL_FULLSCREEN))
       {
