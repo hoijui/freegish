@@ -54,9 +54,16 @@ You will need the following files to be present:
 
 # How to play
 
-Simply run `./gish` or `gish.exe`. There are some assets included (codenamed the *FreeGish* project), making Gish a completely free game! There is also one level available, `freegish.lvl`, you'll find it under "Custom Levels". Try it and replace what you don't like.
+Simply run `./freegish` or `freegish.exe`.
+There are some assets included (codenamed the *FreeGish* project),
+making Gish a completely free game!
+There is also one level available: `freegish.lvl`.
+You will find it under "Custom Levels" in-game.
+Try it and replace what you don't like.
 
-If you own the original assets, you may also copy those into this directory. You'll need:
+If you own the original assets,
+you may also copy those into this directory.
+You will need:
 
 - animation
 - level
