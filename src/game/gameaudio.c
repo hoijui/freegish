@@ -166,7 +166,8 @@ void playsound(int buffernum,float position[3],float velocity[3],float volume,in
   updateogg();
 
   sound[numofsounds].objectnum=objectnum;
-  object[objectnum].soundnum[objectsoundnum]=numofsounds;
+  if (objectnum!=-1)
+    object[objectnum].soundnum[objectsoundnum]=numofsounds;
 
   numofsounds++;
   }
