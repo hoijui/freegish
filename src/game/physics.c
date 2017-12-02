@@ -782,7 +782,7 @@ void bondsimulation2(void)
     
         subtractvectors2(bondnormal,physicstemp.bond[count2].point,particle[part1].position);
         scalevector2(vec,bondnormal,1.0f);
-        veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length);
+        //veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length);
         scaleaddvectors2(vec,vec,particle[part1].prevvelocity,-1.0f);
 
         veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length)-dotproduct(bondnormal,particle[part1].prevvelocity)/vectorlength(bondnormal);
@@ -923,7 +923,7 @@ void bondsimulation2(void)
   
       subtractvectors(bondnormal,physicstemp.bond[count2].point,particle[part1].position);
       scalevector(vec,bondnormal,1.0f);
-      veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length);
+      //veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length);
       scaleaddvectors(vec,vec,particle[part1].prevvelocity,-1.0f);
 
       veclength=(vectorlength(bondnormal)-physicstemp.bond[count2].length)-dotproduct(bondnormal,particle[part1].prevvelocity)/vectorlength(bondnormal);

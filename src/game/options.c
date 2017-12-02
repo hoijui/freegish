@@ -367,7 +367,7 @@ void optionsmenu(void)
       }
     else
       drawtext("?",480,144+count*16,16,1.0f,1.0f,1.0f,1.0f);
-    count++;
+    //count++;
 
     drawtext(TXT_PLAYER2,0,304,16,1.0f,1.0f,1.0f,1.0f);
 
@@ -1191,7 +1191,7 @@ void optionsmenu2(void)
       }
     else
       drawtext("?",480,144+count*16,16,1.0f,1.0f,1.0f,1.0f);
-    count++;
+    //count++;
     /*
     drawtext("Start//Pause",0,144+count*16,16,0.75f,0.75f,0.75f,1.0f);
     if (!menuitem[count+17].active)
