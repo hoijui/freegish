@@ -146,7 +146,17 @@ int loadtexturepng(const char *filename, unsigned int **rgba, int *width, int *h
 					png_read_end(png_ptr, info_ptr);
 					png_destroy_read_struct(&png_ptr, &info_ptr, (png_infop*)0);
 				}
+				else
+				{
+					if(debug_texture_load) fprintf(stderr, "Error during png_create_info_struct for %s\n", filename);
+					load_status = -5;
+				}
 				free(info_ptr);
+			}
+			else
+			{
+				if(debug_texture_load) fprintf(stderr, "Error during png_create_read_struct for %s\n", filename);
+				load_status = -6;
 			}
 			free(png_ptr);
 		}
