@@ -49,8 +49,8 @@ Open *gish.sln* and compile.
 
 You will need the following files to be present:
 
-- OpenAL32.dll
-- SDL.DLL
+- *OpenAL32.dll*
+- *SDL.DLL*
 
 # How to play
 
