@@ -1,4 +1,3 @@
-gish
 config.txt
 gish.pla
 gish.his
@@ -10,4 +9,5 @@ gish.vcproj.*
 
 build/
 freegish
+README.html
 
