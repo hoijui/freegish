@@ -45,8 +45,8 @@ _texture texture[2048];
 _tgaheader tgaheader;
 
 /*
- * This should handle a variety common PNG formats 
- * most importantly 8bit palletized with alpha channel
+ * This should handle a variety of common PNG formats,
+ * most importantly 8bit palletized with alpha channel.
  */
 int loadtexturepng(const char *filename, unsigned int **rgba, int *width, int *height)
 {
