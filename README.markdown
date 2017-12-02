@@ -1,16 +1,19 @@
-# How to compile (Linux)
+# How to compile
 
-Make sure CMake and the development libraries for SDL, OpenAL and Vorbis are installed. In Debian-based systems, you need to install the following packages:
+## ... on Linux
+
+Make sure CMake and the development libraries for SDL, OpenAL and Vorbis are installed.
+In Debian-based systems, you need to install the following packages:
 
     cmake libsdl1.2-dev libopenal-dev libvorbis-dev
 
-Then simply issue
+Then simply issue:
 
     mkdir build && cd build
     cmake ..
     make
 
-# How to compile (Windows with VS2008)
+## ... on Windows with VS2008
 
 Download and install the required libraries:
 
@@ -25,7 +28,7 @@ Download and install the required libraries:
     - install
     - create *C:/Program Files/OpenAL 1.1 SDK/include/AL* and copy all files from *C:/Program Files/OpenAL 1.1 SDK/include*
 
-In Visual Studio add to your include-paths:
+In Visual Studio, add to your include-paths:
 
 - *.../libvorbis-1.3.1/include*
 - *.../libogg-1.2.0/include*
@@ -33,7 +36,7 @@ In Visual Studio add to your include-paths:
 - *.../SDL-1.2.14_VC8/include*
 - *.../SDL_mixer-1.2.11/include*
 
-In Visual Studio add to your library-paths:
+and to your library-paths:
 
 - *.../libvorbis-1.3.1/win32/VS2008/libvorbisfile/Win32/Debug*
 - *.../libogg-1.2.0/win32/VS2008/Win32/Debug*
